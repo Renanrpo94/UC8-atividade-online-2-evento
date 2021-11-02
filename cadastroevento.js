@@ -13,7 +13,7 @@ if (dataEvento <= dataAtual) {
     console.log("Data válida, prossiga com o cadastro")
 }
 
-let idade = 27 // quantos anos voce tem???
+let idade = 27 // quantos anos voce tem? Insira sua idade
 
 if (idade < 18) {
     console.log("Cadastro proibido para menores de 18 anos de idade")
@@ -23,17 +23,16 @@ if (idade < 18) {
 console.log("Escolha o evento:")
 console.log(palestras[0]) // Entre [] escolha o numero da palestra que deseja assitir
 
-let numParticipantes = 5
- //Pessoas cadastradas para a palestra
+let numParticipantes = 5 //Numero de pessoas cadastradas para a palestra
 
-if (numParticipantes <=100) {
+if (numParticipantes <100) {
     console.log("Palestra Disponivel, cadastro efetuado")
 } else {
     console.log("Sem vagas disponiveis para esta palestra")
 }
 let numAtualPart = (numParticipantes + 1)
-console.log("Numero de particpantes: "+ numAtualPart)
-let nomeParticipantes = ["Chimbinha","Joelma","Pedro","Paulo","Romario","Renan"] // Depois do ulitmo nome, digite virgula e seu nome entre aspas
+console.log("Numero de participantes: "+ numAtualPart)
+let nomeParticipantes = ["Chimbinha","Joelma","Pedro","Paulo","Romario","Renan"] // Depois do ultimo nome, digite virgula e seu nome entre aspas
 
 for (let index = 0; index < orador0.length; index++) 
 {
@@ -47,3 +46,4 @@ for (let index = 0; index < nomeParticipantes.length; index++)
     console.log ("Participante: "+ elementoAtual);
 }
 
+console.log("Boa Palestra!")
